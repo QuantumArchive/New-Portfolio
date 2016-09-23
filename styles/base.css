@@ -1,0 +1,37 @@
+/*Base: Most broad, least specific, HTML, body, nav, aside, p, a, input*/
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+div {
+  height: 10em;
+  width: 95%;
+  margin: 0.2em;
+}
+
+h1{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 1.2em;
+  color: white;
+}
+
+.head{
+  background-color: #003A6F;
+  float: left;
+}
+
+.body{
+  background-color: #B22222;
+   float: right;
+}
+
+.about{
+  background-color: #6EC5E9;
+  float: left;
+}
+
+.foot{
+  background-color:#7B4A12;
+  float: right;
+}
