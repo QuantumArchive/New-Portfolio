@@ -1,1 +1,22 @@
 /*Layout: classes, ids(sometimes), header, footer */
+.icon-menu{
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  padding-top: 0em;
+}
+
+li {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  margin-left: 1em;
+  margin-top: 0em;
+}
+
+a {
+  color: #003A6F;
+  font-size: .4em;
+  text-decoration: none;
+}

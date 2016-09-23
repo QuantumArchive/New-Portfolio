@@ -1,0 +1,46 @@
+/*Module: internal, smaller components navigation, headings, ul*/
+.icon-menu:hover li{
+  display: block;
+}
+
+/*div[data-vis="invis"] {
+  display: none;
+}*/
+
+/*div[data-vis="vis"] {
+  display: block;
+}*/
+
+
+
+@media only screen and (min-width: 640px){
+  div {
+    height: 10em;
+    width: 95%;
+    margin: 0.2em;
+  }
+
+  h1, .title {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.2em;
+    color: white;
+  }
+
+  nav{
+    display:none;
+  }
+
+  a {
+    display: inline-block;
+    font-size: 2em;
+    color: white;
+  }
+
+  li {
+    background-color: #003A6F;
+    padding: 1em;
+  }
+  }
+
+  }

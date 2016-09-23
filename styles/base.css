@@ -1,23 +1,28 @@
 /*Base: Most broad, least specific, HTML, body, nav, aside, p, a, input*/
 *{
   font-family: 'Lato', sans-serif;
+  color: white;
 }
 
 div {
-  height: 10em;
+  height: 100em;
   width: 95%;
   margin: 0.2em;
+  background-color: #003A6F;
+  float:left;
+}
+h1{
+font-size: 0em;
 }
 
-h1{
+.title {
   text-align: center;
-  font-size: 2em;
-  padding-top: 1.2em;
+  font-size: 4em;
+  padding-top: 0.2em;
   color: white;
 }
 
 .head{
-  background-color: #003A6F;
   float: left;
 }
 
@@ -33,5 +38,9 @@ h1{
 
 .foot{
   background-color:#7B4A12;
+  float: right;
+}
+
+.contact{
   float: right;
 }
