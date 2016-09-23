@@ -1,3 +1,4 @@
+'use strict';
 //on page load the elements with the 'invis' attribute are made invisible
 $(document).ready(function(){
 $("div[data-vis='invis']").hide();
@@ -14,7 +15,7 @@ $("div[data-vis='invis']").hide();
 function linkBar(){
   $("div[data-vis='vis']").on('click', function(){
     $(this).slideUp('slow');
-    $('.contact').slideDown('slow');
+    $(this).prev().slideDown('slow');
   });
 };
 
@@ -22,7 +23,7 @@ function linkBar(){
 function linkBarReturn(){
   $("div[data-vis='invis']").on('click', function(){
     $(this).slideUp('slow');
-    $('.foot').slideDown('slow');
+    $(this).next().slideDown('slow');
   });
 };
 

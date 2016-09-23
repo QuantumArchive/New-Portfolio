@@ -20,3 +20,11 @@ a {
   font-size: .4em;
   text-decoration: none;
 }
+
+.gallery {
+  float: right;
+}
+
+div[data-vis] {
+  display: none;
+}
